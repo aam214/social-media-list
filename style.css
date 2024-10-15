@@ -10,7 +10,7 @@ body{
   font-weight: 400;
   font-style: normal;
 }
-.heading{
+.top-bar{
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -20,16 +20,17 @@ body{
   background-color: rgba(255, 255, 255, 0.562);
  max-width: 500px;
  padding: 20px;
- padding-bottom: 30px;
+ padding-bottom: 50px;
   margin-top: 120px;
 }
 h1{
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 400;
 }
 .fa-chevron-down{
 margin-left: 18px;
 transition: 0.2s;
+font-size: 28px;
 cursor: pointer;
 }
 .rotate-arrow .fa-chevron-down{
@@ -41,7 +42,7 @@ cursor: pointer;
 .fa-twitter i{
   border-bottom: none;
 }
-.hide{
+.hidden{
   visibility: hidden;
 }
 .drop-down{
