@@ -14,26 +14,32 @@ body{
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  height: 25px;
+  height: 20px;
   border-radius: 4px;
   align-items: baseline;
   background-color: rgba(255, 255, 255, 0.562);
- max-width: 500px;
- padding: 20px;
- padding-bottom: 50px;
+  max-width: 500px;
+  padding: 20px;
   margin-top: 120px;
+  padding-bottom: 50px;
 }
-h1{
+.top-bar h1{
   font-size: 28px;
+  align-items: baseline;
+  display: flex;
   font-weight: 400;
+  margin: 0 10px;
+}
+.top-bar i{
+  font-size: 28px;
 }
 .fa-chevron-down{
 margin-left: 18px;
 transition: 0.2s;
-font-size: 28px;
+transition: transform .2s;
 cursor: pointer;
 }
-.rotate-arrow .fa-chevron-down{
+.rotate .fa-chevron-down{
   transform: rotate(180deg);
 }
 .fa-chevron-down:hover{
@@ -43,16 +49,16 @@ cursor: pointer;
   border-bottom: none;
 }
 .hidden{
-  visibility: hidden;
+visibility: hidden;
 }
 .drop-down{
   margin: 0 auto;
   margin-top: 15px;
   display: block; 
   border-radius: 4px;
- 
-  padding: 5px 20px 5px 20px;
+  padding: 20px;
   max-width: 500px;
+  transition: 0.4s;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.562);
 }
@@ -62,13 +68,13 @@ i{
 }
 li{
   list-style: none;
-  transition: 0.2s;
+  
   cursor: pointer;
   display: flex;
-  border-bottom: 1px solid rgb(124, 124, 124);
   align-items: baseline;
 }
 li:hover{
-opacity: 0.8;
 background-color: rgba(255, 255, 255, 0.733);
+transform: scale(1.07);
+transition: 0.3s;
 }
