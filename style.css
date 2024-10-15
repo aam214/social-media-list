@@ -19,9 +19,10 @@ body{
   align-items: baseline;
   background-color: rgba(255, 255, 255, 0.562);
   max-width: 500px;
-  padding: 20px;
-  margin-top: 120px;
-  padding-bottom: 50px;
+  padding-top: -20px;
+  padding: 2px;
+  margin-top: 200px;
+  padding-bottom: 59px;
 }
 .top-bar h1{
   font-size: 28px;
@@ -56,9 +57,9 @@ visibility: hidden;
   margin-top: 15px;
   display: block; 
   border-radius: 4px;
-  padding: 20px;
+  padding: 2px;
   max-width: 500px;
-  transition: 0.4s;
+  transition: 0.2s;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.562);
 }
@@ -75,6 +76,7 @@ li{
 }
 li:hover{
 background-color: rgba(255, 255, 255, 0.733);
-transform: scale(1.07);
-transition: 0.3s;
+transform: scale(1.02);
+opacity: 0.8;
+transition: 0.2s;
 }

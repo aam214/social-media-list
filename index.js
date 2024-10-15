@@ -13,5 +13,6 @@ lists.forEach(list => {
   list.addEventListener("click", () =>{
 heading.innerHTML = list.innerHTML;
 dropDown.classList.add("hidden");
+
   });
 });
